@@ -1,0 +1,169 @@
+{
+    "name": "G923",
+    "maps": [
+        {
+            "name": "G923",
+            "id": "b96eacbf-47f5-4e3b-b30c-bd3f8e6015ec",
+            "actions": [
+                {
+                    "name": "Steering",
+                    "type": "Value",
+                    "id": "36c9f6e6-51d5-4eeb-b4d7-de7be4083b54",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Gas",
+                    "type": "Value",
+                    "id": "d0e36fa0-00e9-4b1d-9da4-603ffc13e31b",
+                    "expectedControlType": "Axis",
+                    "processors": "Scale(factor=-1)",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Break",
+                    "type": "Value",
+                    "id": "ae457ed9-ef34-404b-96d3-01da35b5866f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Clutch",
+                    "type": "Value",
+                    "id": "dd4bd903-c88a-4db8-84b6-5bfbe1a96c80",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Gasg929",
+                    "type": "Value",
+                    "id": "ac55bd26-cf7c-4adc-b6d0-ef021bc1ffb1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "45d87a7c-bfe9-4326-8e0e-df50c9436a9b",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17305268-1b8d-46de-b0d0-a4820aba5d2e",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clutch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5135fbd-5a25-4ce0-a545-7db16877913a",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e18f542-5675-450c-bd52-e31255abd85f",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "wasd",
+                    "id": "af1b5434-2845-4c7e-b4cf-94f420a4e2a4",
+                    "path": "1DAxis(minValue=0)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gas",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "e48c8942-6f69-40a3-a173-976c28b25c03",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gas",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "56b5dc78-65fc-4b3c-94c1-50195bd33d40",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gas",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "G29/920",
+                    "id": "9e0639aa-4879-4a7d-a6ba-acc02f7d1243",
+                    "path": "1DAxis(minValue=0)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gasg929",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "158afcd5-5b75-4c1e-80b7-dd7ee969377c",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gasg929",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "36195fbd-4665-4870-9733-33522ca8f80a",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gasg929",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

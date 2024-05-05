@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d1dc9a30d3f4f0bbb9e3d7a0cdb71f, type: 3}
   m_Name: AnaglyphFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     renderPassEvent: 550
     layerMask:
