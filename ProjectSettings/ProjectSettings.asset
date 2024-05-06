@@ -76,6 +76,7 @@ PlayerSettings:
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
+  androidAutoRotationBehavior: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -136,8 +137,13 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
+  visionOSBundleVersion: 1.0
+  tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -7695106137210710072, guid: 8c7f339719e39401e875dd47a6f15b44, type: 2}
+  - {fileID: 11400000, guid: e2161d15d7fff4dd4ba2990c1812a655, type: 2}
+  - {fileID: 5935501686549978219, guid: bd2c77a45d75d4eeeb6c79d1f9900bc4, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -518,7 +524,7 @@ PlayerSettings:
     m_APIs: 10000000
     m_Automatic: 1
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 0b000000
+    m_APIs: 0b00000015000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
@@ -564,7 +570,6 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchEnableFileSystemTrace: 0
-  switchUseGOLDLinker: 0
   switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
@@ -804,7 +809,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: BCG_RCC;RCC_LOGITECH;USE_INPUT_SYSTEM_POSE_CONTROL
+    Android: BCG_RCC;RCC_LOGITECH;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     EmbeddedLinux: BCG_RCC;RCC_LOGITECH
     GameCoreScarlett: BCG_RCC;RCC_LOGITECH
     GameCoreXboxOne: BCG_RCC;RCC_LOGITECH
@@ -814,10 +819,10 @@ PlayerSettings:
     PS5: BCG_RCC;RCC_LOGITECH
     QNX: BCG_RCC;RCC_LOGITECH
     Stadia: BCG_RCC;RCC_LOGITECH
-    Standalone: BCG_RCC;RCC_LOGITECH;USE_INPUT_SYSTEM_POSE_CONTROL
+    Standalone: BCG_RCC;RCC_LOGITECH;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     VisionOS: BCG_RCC;RCC_LOGITECH
     WebGL: BCG_RCC;RCC_LOGITECH
-    Windows Store Apps: BCG_RCC;RCC_LOGITECH;USE_INPUT_SYSTEM_POSE_CONTROL
+    Windows Store Apps: BCG_RCC;RCC_LOGITECH;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     XboxOne: BCG_RCC;RCC_LOGITECH
     iPhone: BCG_RCC;RCC_LOGITECH
     tvOS: BCG_RCC;RCC_LOGITECH
